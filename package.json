@@ -1,0 +1,20 @@
+{
+  "name": "protobuf-analysis",
+  "version": "0.0.1",
+  "description": "This package manages a simple script which analyzes the differences between protobuf and JSON payloads.",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node out/index.js",
+    "prestart": "npm run build",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ts-proto": "^1.156.3"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  }
+}

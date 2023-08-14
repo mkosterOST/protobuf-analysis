@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+/* A very simple protobuf representaion of a person.  *
+ * Meant only for use in exercises.                   */
+message Person {
+    string id = 1;
+    optional string name = 2;
+    int32 ageInYears = 3;
+    double netWorth = 4;
+    bool isBrave = 5;
+    Color favorite = 6;
+}
+
+enum Color {
+  RED = 0;
+  BLUE = 1;
+  GREEN = 2;
+}
