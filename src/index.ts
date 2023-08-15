@@ -1,3 +1,11 @@
+/**
+ * A script which analyzes the difference in size between a JSON and ProtoBuf payload.
+ * 
+ * To run:
+ *  0. Execute command: npm install
+ *  1. Execute command: npm run start
+ */
+
 import { Color, Person } from "./lib/proto-generated/sample.js";
 
 const simplePerson = {
